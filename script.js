@@ -32,3 +32,9 @@ let spanCriado = document.querySelector('.container span')
 console.log(spanCriado)
 
 container2.removeChild(spanCriado)
+
+
+//Ex 5 - Alterar Estilo por Classe
+let mudarEstilo = document.querySelector('.paragrafo')
+
+mudarEstilo.style.cssText = 'background-color: pink; font-style: italic'
