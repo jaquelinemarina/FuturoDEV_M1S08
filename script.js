@@ -13,12 +13,22 @@ console.log(trocarParagrafo)
 
 
 //Ex 3 - Criar e Adicionar Elemento
-let container = document.querySelector('.container') 
+let container = document.querySelector('.container')
 
 let elementoCriado = document.createElement('span')
 
-elementoCriado.appendChild(document.createTextNode('Este é um novo span iserido a um elemento existente.')) 
+elementoCriado.appendChild(document.createTextNode('Este é um novo span iserido a um elemento existente.'))
 
 container.appendChild(elementoCriado)
 
 console.log(container)
+
+
+//Ex 4 - Remover Elemento Filho
+let container2 = document.querySelector('.container')
+
+let spanCriado = document.querySelector('.container span')
+
+console.log(spanCriado)
+
+container2.removeChild(spanCriado)
