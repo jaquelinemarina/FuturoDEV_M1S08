@@ -46,3 +46,11 @@ let novaClasse = document.querySelector('.container')
 novaClasse.setAttribute('class', 'newClass')
 
 console.log(novaClasse)
+
+
+//Ex 7 - Remover Classe
+let removeClasse = document.querySelector('.paragrafo2')
+
+console.log(removeClasse)
+
+removeClasse.removeAttribute('class')
