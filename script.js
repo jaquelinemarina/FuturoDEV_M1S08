@@ -54,3 +54,9 @@ let removeClasse = document.querySelector('.paragrafo2')
 console.log(removeClasse)
 
 removeClasse.removeAttribute('class')
+
+
+//Ex 8 - Adicionar Atributo
+let addAtributo = document.getElementById('subtitle')
+
+addAtributo.setAttribute('style', 'color: blue')
