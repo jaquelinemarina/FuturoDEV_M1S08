@@ -38,3 +38,11 @@ container2.removeChild(spanCriado)
 let mudarEstilo = document.querySelector('.paragrafo')
 
 mudarEstilo.style.cssText = 'background-color: pink; font-style: italic'
+
+
+//Ex 6 - Adicionar Classe
+let novaClasse = document.querySelector('.container')
+
+novaClasse.setAttribute('class', 'newClass')
+
+console.log(novaClasse)
