@@ -60,3 +60,11 @@ removeClasse.removeAttribute('class')
 let addAtributo = document.getElementById('subtitle')
 
 addAtributo.setAttribute('style', 'color: blue')
+
+
+//Ex 9 - Remover Atributo
+let removeAtributo = document.getElementById('subtitle')
+
+removeAtributo.removeAttribute('id')
+
+console.log(removeAtributo)
